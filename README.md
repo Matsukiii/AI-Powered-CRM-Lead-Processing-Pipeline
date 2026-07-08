@@ -28,8 +28,10 @@ Content Generation: Gemini writes a personalized, actionable cold email tailored
 CRM Injection: The original lead data and the AI-generated email are mapped to HubSpot properties. A new Contact is created with a NEW Lead Status, ready for sales rep review.
 
 💻 Testing the Webhook (Python Payload)
+
 To simulate a form submission or incoming lead, this script fires the dummy data at the webhook:
 
+```
 import requests
 
 # Make.com Webhook URL
@@ -47,6 +49,7 @@ response = requests.post(webhook_url, json=lead_data)
 
 if response.status_code == 200:
     print("Webhook successfully caught the data!")
+```
 
 📸 Proof of Concept
 
