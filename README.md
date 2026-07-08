@@ -6,6 +6,7 @@ An automated, end-to-end lead processing pipeline built with Make.com. This syst
 This eliminates manual data entry and provides sales teams with instant, context-aware email drafts the moment a new lead enters the system.
 
 🏗️ Architecture & Tech Stack
+
 Integration Engine: Make.com (formerly Integromat)
 
 Trigger: Custom Webhook (REST API)
@@ -17,6 +18,7 @@ Database/Destination: HubSpot CRM
 Testing: Python (requests library)
 
 ⚙️ How It Works
+
 Data Ingestion: A POST request containing the lead's Name, Business Type, and Current Challenge is fired to a Make.com webhook.
 
 AI Orchestration: Make parses the JSON and maps the variables into a dynamic prompt sent to the Gemini 2.5 Flash endpoint.
