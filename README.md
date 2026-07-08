@@ -47,5 +47,6 @@ if response.status_code == 200:
     print("Webhook successfully caught the data!")
 
 📸 Proof of Concept
+
 <img width="1178" height="421" alt="image" src="https://github.com/user-attachments/assets/f962830e-99b3-4bc9-ac01-9d28dc634930" />
 <img width="1439" height="764" alt="image" src="https://github.com/user-attachments/assets/a18dbd61-1e5d-4db0-9f01-eac63334a72d" />
